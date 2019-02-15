@@ -1,13 +1,15 @@
 <?php
-        $servername = "localhost";
-        $username = "BP";
-        $password = "Pritam@123";
+    session_start();
 
-        $conn = new mysqli($servername, $username, $password);
+    $conn = new mysqli('localhost','root');
 
-        if ($conn->connect_error) 
-        {
-            die("Connection failed: " . $conn->connect_error);
-        } 
-        echo "Connected successfully";
-?>s
+    if ($conn) 
+    {
+        // echo "Connection Successful Done";
+    } 
+    else
+    {
+        // echo "Connected Unsuccessfully";
+    }
+    mysqli_select_db($conn , 'BP');
+?>

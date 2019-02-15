@@ -1,16 +1,10 @@
 <?php 
-	session_start();
-	$_SESSION['message'] = '';
+	include_once "./registation-validation.php";
 ?>
 <!doctype html>
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en" class="no-js">
-<!--<![endif]-->
 
-<!-- Mirrored from demo.designshopify.com/html_jewelry/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Feb 2019 07:55:45 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
     <meta charset="UTF-8">
@@ -54,50 +48,53 @@
                 </div>
                 <section class="content">
                     <div class="container">
-											  <div class="alert alert-error">
-													 <?= $_SESSION['message'] ?>
-                        </div>
+                        
                         <div class="row">
                             <div id="page-header" class="col-md-24">
                                 <h1 id="page-title">Register</h1>
                             </div>
                             <div id="col-main" class="col-md-24 register-page clearfix">
-                                <form method="post" action="form.php" id="create_customer"
-                                    accept-charset="UTF-8">
+                                <form method="post" action="" id="create_customer" accept-charset="UTF-8">
 
                                     <ul id="register-form" class="row list-unstyled">
                                         <li id="first_namefs">
-                                           
+
                                         </li>
                                         <li class="clearfix"></li>
                                         <li id="last_namef">
                                             <label class="control-label" for="last_name">First Name</label>
-                                            <input name="customer[last_name]" id="last_name" class="form-control " type="text" required/>
+                                            <input name="Fname" id="last_name" class="form-control " type="text"
+                                                required />
                                         </li>
                                         <li id="last_namef">
                                             <label class="control-label" for="last_name">Last Name</label>
-                                            <input name="customer[last_name]" id="last_name" class="form-control " type="text">
+                                            <input name="Lname" id="last_name" class="form-control " type="text" required />
                                         </li>
                                         <li class="clearfix"></li>
                                         <li id="emailf" class="">
                                             <label class="control-label" for="email">Your Email <span class="req">*</span></label>
-                                            <input name="customer[email]" id="email" class="form-control " type="email">
+                                            <input name="Email" id="email" class="form-control " type="email"  required />
                                         </li>
                                         <li class="clearfix"></li>
                                         <li id="passwordf" class="">
-                                            <label class="control-label" for="password">Your Password <span class="req">*</span></label>
-                                            <input value="" name="customer[password]" id="password" class="form-control password"
-                                                type="password">
+                                            <label class="control-label" for="password"> Password <span class="req">*</span></label>
+                                            <input value="" name="Password" id="password" class="form-control password"
+                                                type="password"  required />
+                                        </li>
+                                        <li id="passwordf" class="">
+                                            <label class="control-label" for="password"> Confirm Password <span class="req">*</span></label>
+                                            <input value="" name="Cpassword" id="password" class="form-control password"
+                                                type="password"  required />
                                         </li>
                                         <li class="clearfix"></li>
                                         <li id="emailf" class="">
                                             <label class="control-label" for="phonr"> Phone <span class="req">*</span></label>
-                                            <input name="customer[email]" id="phone" class="form-control " type="email">
+                                            <input name="Phone" id="phone" class="form-control " type="number"  required />
                                         </li>
 
                                         <li class="clearfix"></li>
                                         <li class="unpadding-top action-last">
-                                            <button class="btn" type="submit">Create an Account</button>
+                                            <button class="btn" name="submitForm" type="submit">Create an Account</button>
                                         </li>
                                     </ul>
                                 </form>

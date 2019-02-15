@@ -1,9 +1,4 @@
 <!doctype html>
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-
-<!-- Mirrored from demo.designshopify.com/html_jewelry/product.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Feb 2019 07:56:05 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
