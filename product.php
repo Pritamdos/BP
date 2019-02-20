@@ -43,7 +43,7 @@
 </head>
 
 <body style="height: 2671px;" itemscope="" itemtype="http://schema.org/WebPage" class="templateProduct notouch">
-    <?php include "./header/header.php"?>
+    <?php include "header.php"?>
     
   
 	<div id="content-wrapper-parent">
@@ -752,87 +752,6 @@
 					  </div>              
 					</form>
 				  </div>						
-				</div>
-			</div>
-			
-			<div class="footer-content footer-content-top clearfix">
-				<div class="container">
-					<div class="footer-link-list col-md-6">
-					  <div class="group">
-						<h5 class="general-title">About Us</h5>						
-						<ul class="list-unstyled list-styled">						  
-						  <li class="list-unstyled">
-							<a href="account.html">Store Locations</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Whosesalers</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Map Site</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Contact Us</a>
-						  </li>						  
-						</ul>
-					  </div>
-					</div>   
-					<div class="footer-link-list col-md-6">
-					  <div class="group">
-						<h5 class="general-title">Information</h5>						
-						<ul class="list-unstyled list-styled">						  
-						  <li class="list-unstyled">
-							<a href="account.html">Help &amp; FAQs</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Advance Search</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Gift Cards</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Shop By Brands</a>
-						  </li>						  
-						</ul>
-					  </div>
-					</div>
-					<div class="footer-link-list col-md-6">
-					  <div class="group">
-						<h5 class="general-title">Account</h5>						
-						<ul class="list-unstyled list-styled">						  
-						  <li class="list-unstyled">
-							<a href="account.html">Preferences</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Order History</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Cart Page</a>
-						  </li>						  
-						  <li class="list-unstyled">
-							<a href="account.html">Sign In</a>
-						  </li>						  
-						</ul>
-					  </div>
-					</div>
-					<div class="footer-link-list col-md-6">
-					  <div class="group">
-						<h5 class="general-title">Customer</h5>						
-						<ul class="list-unstyled list-styled">						  
-							<li class="list-unstyled">
-								<a href="search.html">Search Advanced</a>
-							</li>						  
-							<li class="list-unstyled">
-								<a href="#">Return Policy</a>
-							</li>						  
-							<li class="list-unstyled">
-								<a href="#">Privacy Policy</a>
-							</li>						  
-							<li class="list-unstyled">
-								<a href="#">Help &amp; Contact</a>
-							</li>						  
-						</ul>
-					  </div>
-					</div>   
 				</div>
 			</div>
 			<div class="footer-content footer-content-bottom clearfix">

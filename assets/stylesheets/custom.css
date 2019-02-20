@@ -37,7 +37,7 @@ div#lg-modals
 }
 .product-prices .price_sale
 {
-    font-size:20px;
+    font-size:18px;
     color: #a07936;
     line-height:30px;
     font-weight: 500;
@@ -173,3 +173,24 @@ a#closelink .fa
       transform: translate3d(0, 0, 0);
     }
   }
+  .bp-j {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bps
+{
+  height:100px;
+}
+span.vp {
+  width: 100%;
+  float: left;
+  padding-top: 5px;
+}
+.return
+{
+  text-decoration: underline!important;
+}

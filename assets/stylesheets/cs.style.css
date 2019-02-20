@@ -412,7 +412,7 @@ a,
 #breadcrumb a{color:#808080;font-weight:400;font-family:'Lato', sans-serif;padding-right:3px;}
 #breadcrumb a:hover{color:#a07936;}
 #breadcrumb span{color:#a07936;font-weight:400;font-family:'Lato', sans-serif;padding-left:3px;padding-right:3px;}
-#page-header{margin:25px 0 25px;padding-left:15px;padding-right:15px;}
+#page-header{margin:25px 0 25px;padding-right:15px;}
 .breadcrumb i.fa-angle-right{padding-right:10px;}
 i.fa:focus,
 button:focus{outline:none !important;}
@@ -1387,4 +1387,17 @@ ul#price-table{display:block;width:100%;height:auto;margin-top:40px;}
 		padding-right: 15px !important;
 	}	
 }
-
+span.vp 
+{
+    width: 100%;
+	float: left;
+	line-height:30px;
+}
+.pd-lt
+{
+	padding-left: 50px;
+}
+.return
+{
+  text-decoration: underline;
+}

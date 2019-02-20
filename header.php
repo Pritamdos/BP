@@ -1,13 +1,15 @@
-<!-- Header -->
 
+<?php
+    include_once "./backend/connection.php";
+?>
 <header id="top" class="clearfix">
 
     <div class="container">
         <div class="top-navigation">
             <ul class="list-inline">
                 <li class="top-logo">
-                    <a id="site-title" href="#" title="Jewelry - HTML Template theme">
-                        <img class="img-responsive" src="assets/images/logo.png" alt="Jewelry - HTML Template theme">
+                    <a id="site-title" href="index.php" title="Jewelry - HTML Template theme">
+                        <img class="img-responsive" src="./assets/images/bpnew.png" alt="Jewelry - HTML Template theme">
                     </a>
                 </li>
                 <li class="navigation">
@@ -58,12 +60,12 @@
                             <div class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav hoverMenuWrapper">
                                     <li class="nav-item active">
-                                        <a href="#">
-                                            <span>Home</span>
+                                        <a href="#"class="hvr-underline-from-center">
+                                            Home
                                         </a>
                                     </li>
                                     <li class="dropdown mega-menu">
-                                        <a href="collection.html" class="dropdown-toggle dropdown-link" data-toggle="dropdown">
+                                        <a href="collection.html" class="dropdown-toggle dropdown-link" data-toggle="dropdown" class="hvr-underline-from-center">
                                             <span>Collections</span>
                                             <i class="fa fa-caret-down"></i>
                                             <i class="sub-dropdown1 visible-sm visible-md visible-lg"></i>
@@ -116,20 +118,20 @@
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="contact.php">
+                                        <a href="contact.php" class="hvr-underline-from-center">
                                             <span>Contact</span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="login.php">
+                                        <a href="login.php" class="hvr-underline-from-center">
                                             <span>Login</span>
                                         </a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="login.php">
+                                    <!-- <li class="nav-item">
+                                        <a href="adminlogin.php" class="hvr-underline-from-center">
                                             <span>Logout</span>
                                         </a>
-                                    </li>
+                                    </li> -->
                                    
                                 </ul>
                             </div>
