@@ -394,10 +394,31 @@ a,
 .footer-link-list:last-child{padding-right:0;}
 .footer-content .group ul{margin:10px 0 0;}
 .footer-content .group ul > li a{padding:0;color:#000000;text-transform:capitalize;font-weight:400;}
-.footer-content-bottom{padding:35px 0;background:#21201f;}
-.footer-content-bottom .copyright,
+.footer-content-bottom
+   {
+		padding: 35px 0;
+		background:rgba(0,0,0,0.9);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		float: left;
+		text-align: center;
+   }
+.footer-content-bottom .copyright
+{
+	padding-left: 0;
+    width: 100%;
+    float: left;
+}
 #footer .footer-content-bottom .copyright a{font-family:'Lato', sans-serif;color:rgba(255,255,255,0.8);font-weight:400;}
-.footer-content-bottom .copyright{padding-left:0;}
+.footer-content-bottom .copyright
+{   
+	padding-left: 0;
+    width: 100%;
+	float: left;
+	color:#fff;
+}
 .icons{background-image:url(../images/icon_payment.png);background-repeat:no-repeat;text-indent:-9999px;display:inline-block;height:16px;}
 #widget-payment{padding-right:0;}
 #widget-payment ul#payments{text-align:right;}

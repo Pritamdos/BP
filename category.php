@@ -1,5 +1,5 @@
-<?php 
-	include_once "./backend/category.php";
+<?php
+   include "./backend/category-validation.php"; 
 ?>
 <!doctype html>
 
@@ -46,7 +46,73 @@
     <script src="assets/javascripts/jquery.zoom.js" type="text/javascript"></script>
     <script src="assets/javascripts/cs.script.js" type="text/javascript"></script>
 </head>
+
 <body>
-     <?php include "./admin-header.php" ?>
-     jhhjh
+    <?php include "./admin-header.php" ?>
+    <div class="category-outers">
+        <div class="add-category">
+            <ul class="category-ul">
+                <li class="category-li">
+                    <button type="submit" class="cat-button" name="addSubmit">
+                        Category Add
+                    </button>
+                </li>
+                <li class="category-li">
+                    <button type="submit" class="cat-button views" name="viewSubmit">
+                        Category View
+                    </button>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="category-add-sections">
+        <div class="category-add-inners">
+            <form method="post" action="">
+                <div class="form-data">
+
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Category Name
+                        </span>
+                        <input type="text" placeholder="Enter Cat Name" name="catName" required>
+                    </div>
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Category Type
+                        </span>
+                        <select name="selectCategory">
+                            <option value="gold">Gold</option>
+                            <option value="silver">Silver</option>
+                        </select>
+                    </div>
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Description Category
+                        </span>
+                        <textarea class="catdesc" name="catDesc" placeholder="Describe About Category" required></textarea>
+                    </div>
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Category Add Date
+                        </span>
+                        <input type="date" name="catDate" required>
+                    </div>
+                    <div class="each-rows-valuess">
+                        <button type="submit" class="cat-button views" name="addCategory">
+                            Category Add
+                        </button>
+                    </div>
+
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="category-views-sections">
+        <div class="category-views-inners">
+
+        </div>
+    </div>
 </body>

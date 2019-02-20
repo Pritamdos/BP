@@ -36,7 +36,7 @@
                     <div itemprop="breadcrumb" class="container">
                         <div class="row">
                             <div class="col-md-24">
-                                <a href="index-2.html" class="homepage-link" title="Back to the frontpage">Home</a>
+                                <a href="index.php" class="homepage-link" title="Back to the frontpage">Home</a>
                                 <span>/</span>
                                 <span class="page-title">Login</span>
                             </div>
@@ -117,7 +117,7 @@
                                                             <li>
                                                                 <a class="action" href="javascript:;" onclick="hideRecoverPasswordForm()">Return
                                                                     to login?</a>
-                                                                or <a class="return" href="index-2.html">Return to
+                                                                or <a class="return" href="index.php">Return to
                                                                     store</a>
                                                             </li>
                                                             <li>

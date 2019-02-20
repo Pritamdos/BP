@@ -1,6 +1,3 @@
-<?php 
-	include_once "./backend/category.php";
-?>
 <!doctype html>
 
 <head>
@@ -46,7 +43,24 @@
     <script src="assets/javascripts/jquery.zoom.js" type="text/javascript"></script>
     <script src="assets/javascripts/cs.script.js" type="text/javascript"></script>
 </head>
+
 <body>
-     <?php include "./admin-header.php" ?>
-     jhhjh
+    <?php include "./admin-header.php" ?>
+    <div class="category-outers">
+        <div class="add-category">
+            <ul class="category-ul">
+                <li class="category-li">
+                    <button type="submit" class="cat-button" name="addSubmit">
+                        Subcategory Add
+                    </button>
+                </li>
+                <li class="category-li">
+                    <button type="submit" class="cat-button views"  name="viewSubmit">
+                      Subcategory View
+                    </button>
+                </li>
+            </ul>
+
+        </div>
+    </div>
 </body>

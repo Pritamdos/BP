@@ -33,7 +33,7 @@
 					<div itemprop="breadcrumb" class="container">
 						<div class="row">
 							<div class="col-md-24">
-								<a href="index-2.html" class="homepage-link" title="Back to the frontpage">Home</a>
+								<a href="index.php" class="homepage-link" title="Back to the frontpage">Home</a>
 								<span>/</span>
 								<span class="page-title">Wishlist Page</span>
 							</div>
@@ -73,10 +73,10 @@
 												<td class="title text-left">
 													<ul class="list-inline">
 														<li class="image">
-														<a class="image text-left" href="product.html"><img src="assets/images/6_e3262113-c6c2-4c85-b20a-56b61f779815_small.jpg" alt="Donec justo condimentum"></a>
+														<a class="image text-left" href="product.php"><img src="assets/images/6_e3262113-c6c2-4c85-b20a-56b61f779815_small.jpg" alt="Donec justo condimentum"></a>
 														</li>
 														<li class="link">
-														<a class="title text-left" href="product.html">Donec justo condimentum</a>
+														<a class="title text-left" href="product.php">Donec justo condimentum</a>
 														</li>
 													</ul>
 												</td>
@@ -102,10 +102,10 @@
 												<td class="title text-left">
 													<ul class="list-inline">
 														<li class="image">
-														<a class="image text-left" href="product.html"><img src="assets/images/7_15911c75-e357-4cc1-a903-950a8ed4b779_small.jpg" alt="Donec justo condimentum"></a>
+														<a class="image text-left" href="product.php"><img src="assets/images/7_15911c75-e357-4cc1-a903-950a8ed4b779_small.jpg" alt="Donec justo condimentum"></a>
 														</li>
 														<li class="link">
-														<a class="title text-left" href="product.html">Donec justo condimentum</a>
+														<a class="title text-left" href="product.php">Donec justo condimentum</a>
 														</li>
 													</ul>
 												</td>
@@ -131,10 +131,10 @@
 												<td class="title text-left">
 													<ul class="list-inline">
 														<li class="image">
-														<a class="image text-left" href="product.html"><img src="assets/images/9_2246be9a-5bde-42e3-9d1e-c077a3e8928e_small.jpg" alt="Donec justo condimentum"></a>
+														<a class="image text-left" href="product.php"><img src="assets/images/9_2246be9a-5bde-42e3-9d1e-c077a3e8928e_small.jpg" alt="Donec justo condimentum"></a>
 														</li>
 														<li class="link">
-														<a class="title text-left" href="product.html">Donec justo condimentum</a>
+														<a class="title text-left" href="product.php">Donec justo condimentum</a>
 														</li>
 													</ul>
 												</td>

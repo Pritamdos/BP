@@ -194,3 +194,130 @@ span.vp {
 {
   text-decoration: underline!important;
 }
+.category-outers {
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+.add-category {
+  width: 100%;
+  float: left;
+}
+ul.category-ul {
+  width: 100%;
+  float: left;
+  margin: 0!important;
+  padding: 0;
+}
+li.category-li {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  /* margin: 0; */
+  padding: 0;
+}
+button.cat-button 
+{
+  padding: 10px 40px;
+  float: left;
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 20px;
+  font-size: 15px;
+  display: block;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  
+}
+.views
+{
+  color: #fff;
+  background-color: #5cb85c!important;
+  border-color: #4cae4c!important;
+}
+.category-add-sections {
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+
+.category-add-inners 
+{
+  width:600px;
+  margin:0 auto;
+}
+.category-add-inners  [type="text"],
+.category-add-inners  [type="date"],
+.category-add-inners  [type="number"]
+{
+  width: 100%;
+  float: left;
+  height: 40px;
+  resize: none;
+  border: 1px solid #ddd;
+  padding: 5PX 10px;
+  font-size: 14px;
+  color: #666;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 20px;
+  border-radius: 3px;
+}
+.category-add-inners  textarea
+{
+  width: 100%;
+  float: left;
+  height:100px;
+  resize: none;
+  border: 1px solid #ddd;
+  padding: 2PX 10px;
+  font-size: 14px;
+  color: #666;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 20px;
+  border-radius: 3px;
+}
+.each-rows-values select
+{
+  width: 100%;
+  float: left;
+  height: 40px;
+  resize: none;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #666;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 20px;
+  border-radius: 3px; 
+}
+
+.each-rows-values 
+{
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.each-rows-valuess
+{
+  width: 100%;
+  float: left;
+  margin-top:30px;
+  display: flex;
+  justify-content: center;
+}
+span.labels {
+  width: 100%;
+  float: left;
+  font-size: 13px;
+  color: #888;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}

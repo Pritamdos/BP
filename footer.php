@@ -25,20 +25,7 @@
                     <div class="copyright col-md-12">
                         © 2015 <a href="about-us.html">Jewelry - HTML template</a>. All Rights Reserved.
                     </div>
-                    <div id="widget-payment" class="col-md-12">
-                        <ul id="payments" class="list-inline animated">
-                            <li class="btooltip tada" data-toggle="tooltip" data-placement="top" title=""
-                                data-original-title="Visa"><a href="#" class="icons visa"></a></li>
-                            <li class="btooltip tada" data-toggle="tooltip" data-placement="top" title=""
-                                data-original-title="Mastercard"><a href="#" class="icons mastercard"></a></li>
-                            <li class="btooltip tada" data-toggle="tooltip" data-placement="top" title=""
-                                data-original-title="American Express"><a href="#" class="icons amex"></a></li>
-                            <li class="btooltip tada" data-toggle="tooltip" data-placement="top" title=""
-                                data-original-title="Paypal"><a href="#" class="icons paypal"></a></li>
-                            <li class="btooltip tada" data-toggle="tooltip" data-placement="top" title=""
-                                data-original-title="Moneybookers"><a href="#;" class="icons moneybookers"></a></li>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
         </div>

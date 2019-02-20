@@ -200,7 +200,7 @@
                                                         data-animate="fadeInUp" data-delay="0">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/1_grande.jpg" class="img-responsive"
                                                                         alt="Curabitur cursus dignis">
                                                                     <span class="sale_banner">
@@ -213,7 +213,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Curabitur
+                                                                    <a class="title-5" href="product.php">Curabitur
                                                                         cursus dignis</a>
                                                                     <span class="spr-badge" id="spr_badge_12932382113"
                                                                         data-rating="0.0">
@@ -246,12 +246,12 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>
@@ -275,7 +275,7 @@
                                                         data-animate="fadeInUp" data-delay="1">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/2_119a31f2-2054-4483-93a3-841310e6bdfb_grande.jpg"
                                                                         class="img-responsive" alt="Curabitur cursus dignis">
                                                                 </a>
@@ -285,7 +285,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Curabitur
+                                                                    <a class="title-5" href="product.php">Curabitur
                                                                         cursus dignis</a>
                                                                     <span class="spr-badge" id="spr_badge_12932396193"
                                                                         data-rating="0.0">
@@ -318,7 +318,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -352,7 +352,7 @@
                                                         data-animate="fadeInUp" data-delay="2">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/6_03a522d6-f36a-4f59-a815-bbade4d87a6e_grande.jpg"
                                                                         class="img-responsive" alt="Donec aliquam ante non">
                                                                     <span class="sale_banner">
@@ -365,7 +365,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Donec
+                                                                    <a class="title-5" href="product.php">Donec
                                                                         aliquam ante non</a>
                                                                     <span class="spr-badge" id="spr_badge_12932369312"
                                                                         data-rating="4.0">
@@ -398,7 +398,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -415,7 +415,7 @@
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>
@@ -439,7 +439,7 @@
                                                         data-animate="fadeInUp" data-delay="3">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_grande.jpg"
                                                                         class="img-responsive" alt="Donec condime fermentum">
                                                                 </a>
@@ -449,7 +449,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Donec
+                                                                    <a class="title-5" href="product.php">Donec
                                                                         condime fermentum</a>
                                                                     <span class="spr-badge" id="spr_badge_12932358434"
                                                                         data-rating="0.0">
@@ -482,7 +482,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -504,7 +504,7 @@
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>
@@ -528,7 +528,7 @@
                                                         data-animate="fadeInUp" data-delay="4">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/10_16854be2-a731-4970-984e-7f6e483d2405_grande.jpg"
                                                                         class="img-responsive" alt="Maximus quam posuere">
                                                                     <span class="sale_banner">
@@ -541,7 +541,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Maximus quam
+                                                                    <a class="title-5" href="product.php">Maximus quam
                                                                         posuere</a>
                                                                     <span class="spr-badge" id="spr_badge_1293227907"
                                                                         data-rating="3.0">
@@ -574,7 +574,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -591,7 +591,7 @@
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>
@@ -615,7 +615,7 @@
                                                         data-animate="fadeInUp" data-delay="5">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/11_68ab6d0f-109c-429b-a903-4cbf60257806_grande.jpg"
                                                                         class="img-responsive" alt="Product full width">
                                                                     <span class="sale_banner">
@@ -628,7 +628,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Product full
+                                                                    <a class="title-5" href="product.php">Product full
                                                                         width</a>
                                                                     <span class="spr-badge" id="spr_badge_1293240771"
                                                                         data-rating="0.0">
@@ -661,7 +661,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -678,7 +678,7 @@
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>
@@ -827,7 +827,7 @@
                                                         data-delay="0">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/1_grande.jpg" class="img-responsive"
                                                                         alt="Curabitur cursus dignis">
                                                                     <span class="sale_banner">
@@ -840,7 +840,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Curabitur
+                                                                    <a class="title-5" href="product.php">Curabitur
                                                                         cursus dignis</a>
                                                                     <span class="spr-badge" id="spr_badge_1293238211"
                                                                         data-rating="0.0">
@@ -873,12 +873,12 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>
@@ -902,7 +902,7 @@
                                                         data-delay="200">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/2_119a31f2-2054-4483-93a3-841310e6bdfb_grande.jpg"
                                                                         class="img-responsive" alt="Curabitur cursus dignis">
                                                                 </a>
@@ -912,7 +912,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Curabitur
+                                                                    <a class="title-5" href="product.php">Curabitur
                                                                         cursus dignis</a>
                                                                     <span class="spr-badge" id="spr_badge_1293239619"
                                                                         data-rating="0.0">
@@ -945,7 +945,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -979,7 +979,7 @@
                                                         data-delay="400">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/6_03a522d6-f36a-4f59-a815-bbade4d87a6e_grande.jpg"
                                                                         class="img-responsive" alt="Donec aliquam ante non">
                                                                     <span class="sale_banner">
@@ -992,7 +992,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Donec
+                                                                    <a class="title-5" href="product.php">Donec
                                                                         aliquam ante non</a>
                                                                     <span class="spr-badge" id="spr_badge_1293236931"
                                                                         data-rating="4.0">
@@ -1025,7 +1025,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -1042,7 +1042,7 @@
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>
@@ -1066,7 +1066,7 @@
                                                         data-delay="600">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_grande.jpg"
                                                                         class="img-responsive" alt="Donec condime fermentum">
                                                                 </a>
@@ -1076,7 +1076,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Donec
+                                                                    <a class="title-5" href="product.php">Donec
                                                                         condime fermentum</a>
                                                                     <span class="spr-badge" id="spr_badge_1293235843"
                                                                         data-rating="0.0">
@@ -1109,7 +1109,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -1131,7 +1131,7 @@
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>
@@ -1155,7 +1155,7 @@
                                                         data-delay="800">
                                                         <ul class="row-container list-unstyled clearfix">
                                                             <li class="row-left">
-                                                                <a href="product.html" class="container_item">
+                                                                <a href="product.php" class="container_item">
                                                                     <img src="assets/images/10_16854be2-a731-4970-984e-7f6e483d2405_grande.jpg"
                                                                         class="img-responsive" alt="Maximus quam posuere">
                                                                     <span class="sale_banner">
@@ -1168,7 +1168,7 @@
                                                             </li>
                                                             <li class="row-right parent-fly animMix">
                                                                 <div class="product-content-left">
-                                                                    <a class="title-5" href="product.html">Maximus quam
+                                                                    <a class="title-5" href="product.php">Maximus quam
                                                                         posuere</a>
                                                                     <span class="spr-badge" id="spr_badge_12932279073"
                                                                         data-rating="3.0">
@@ -1201,7 +1201,7 @@
                                                                     velit, sed...
                                                                 </div>
                                                                 <div class="hover-appear">
-                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.html"
+                                                                    <form action="http://demo.designshopify.com/html_jewelry/product.php"
                                                                         method="post">
                                                                         <div class="hide clearfix">
                                                                             <select name="id">
@@ -1218,7 +1218,7 @@
                                                                         <div class="effect-ajax-cart">
                                                                             <input type="hidden" name="quantity" value="1">
                                                                             <button class="select-option" type="button"
-                                                                                onclick="window.location.href='product.html'"><i
+                                                                                onclick="window.location.href='product.php'"><i
                                                                                     class="fa fa-th-list" title="Select Options"></i><span
                                                                                     class="list-mode">Select Option</span></button>
                                                                         </div>

@@ -36,25 +36,20 @@
                                     </li>
                                     <li class="is-mobile-login">
                                         <div class="btn-group">
-                                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                            <!-- <div class="dropdown-toggle" data-toggle="dropdown">
                                                 <i class="fa fa-user"></i>
-                                            </div>
-                                            <ul class="customer dropdown-menu">
+                                            </div> -->
+                                            <!-- <ul class="customer dropdown-menu">
                                                 <li class="logout">
                                                     <a href="#">Login</a>
                                                 </li>
                                                 <li class="account last">
                                                     <a href="register.html">Register</a>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                     </li>
-                                    <li class="is-mobile-wl">
-                                        <a href="#"><i class="fa fa-heart"></i></a>
-                                    </li>
-                                    <li class="is-mobile-cart">
-                                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    </li>
+                                
                                 </ul>
                             </div>
                             <div class="collapse navbar-collapse">

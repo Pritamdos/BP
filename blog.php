@@ -31,7 +31,7 @@
 						<div itemprop="breadcrumb" class="container">
 							<div class="row">
 								<div class="col-md-24">
-									<a href="index-2.html" class="homepage-link" title="Back to the frontpage">Home</a>								
+									<a href="index.php" class="homepage-link" title="Back to the frontpage">Home</a>								
 									<span>/</span>
 									<span class="page-title">Blog Full With</span>								
 								</div>
