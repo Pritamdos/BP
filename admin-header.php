@@ -57,7 +57,7 @@
                             <div class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav hoverMenuWrapper">
                                     <li class="nav-item active">
-                                        <a href="category.php"class="hvr-underline-from-center">
+                                        <a href="admin-dashboard.php"" class="hvr-underline-from-center">
                                             Category
                                         </a>
                                     </li>

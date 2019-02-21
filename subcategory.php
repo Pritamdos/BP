@@ -1,3 +1,6 @@
+<?php
+   include "./backend/category-validation.php"; 
+?>
 <!doctype html>
 
 <head>
@@ -50,17 +53,77 @@
         <div class="add-category">
             <ul class="category-ul">
                 <li class="category-li">
-                    <button type="submit" class="cat-button" name="addSubmit">
+                    <button type="submit" class="cat-button categories" name="addSubmit" id="tabs1">
                         Subcategory Add
                     </button>
                 </li>
                 <li class="category-li">
-                    <button type="submit" class="cat-button views"  name="viewSubmit">
-                      Subcategory View
+                    <button type="submit"  class="cat-button views categories" name="viewSubmit" id="tabs2">
+                        Subcategory View
                     </button>
                 </li>
             </ul>
 
         </div>
     </div>
+    <div class="category-add-sections tabs" data-tab="tabs1" id="categoryfield">
+        <div class="category-add-inners">
+        <div class="category-add-inners">
+            <form method="post" action="">
+                <div class="form-data">
+
+                   
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Subcategory Name
+                        </span>
+                        <select name="selectsubcategoryname">
+                            <?php
+                              $sql = "SELECT * FROM category";
+                              $result = $conn->query($sql);
+              
+                            if ($result->num_rows > 0) {
+                                echo"dta";
+                               while($row = $result->fetch_assoc()) 
+                               {
+                                ?>
+                                <option value="<?php echo $row["catId"] ?>"><?php echo $row["catName"] ?></option>
+                                <?php
+                               }
+                            }
+                              ?>
+                        </select>
+                    </div>
+                    <div class="each-rows-values">
+                        <span class="labels">
+                           Subcategory Type
+                        </span>
+                        <select name="selectsubcategorytype">
+                            <option value="gold">Gold</option>
+                            <option value="silver">Silver</option>
+                        </select>
+                    </div>
+                   
+                    <div class="catinner-sections">
+                        hjjhjbcvhbhch
+                    </div>
+
+
+                </div>
+            </form>
+
+        </div>
+        </div>
+    </div>
+    <div class="category-views-sections hide tabs"  data-tab="tabs2"  id="subcategoryfield">
+        <div class="category-views-inners">
+                hgggggggggggggggggggggggggggggggj
+        </div>
+    </div>
 </body>
+<script>
+    $("button.categories").on('click',function(e){
+        jQuery('.tabs').addClass('hide');
+        jQuery(document).find("[data-tab='" + this.id + "']").removeClass("hide"); 
+    });
+</script>
