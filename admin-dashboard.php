@@ -1,5 +1,5 @@
 <?php 
-	include_once "./backend/category.php";
+	include_once "./backend/category-validation.php";
 ?>
 <!doctype html>
 
