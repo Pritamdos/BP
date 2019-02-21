@@ -1,5 +1,6 @@
-<?php 
-	include_once "./backend/category.php";
+<?php
+   include "./backend/category-validation.php"; 
+ 
 ?>
 <!doctype html>
 
@@ -46,7 +47,116 @@
     <script src="assets/javascripts/jquery.zoom.js" type="text/javascript"></script>
     <script src="assets/javascripts/cs.script.js" type="text/javascript"></script>
 </head>
+
 <body>
-     <?php include "./admin-header.php" ?>
-     jhhjh
+    <?php include "./admin-header.php" ?>
+    <div class="category-outers">
+        <div class="add-category">
+            <ul class="category-ul">
+                <li class="category-li">
+                    <button type="submit" class="cat-button categories" name="addSubmit" id="tabs1">
+                        Category Add
+                    </button>
+                </li>
+                <li class="category-li">
+                    <button type="submit"  class="cat-button views categories" name="viewSubmit" id="tabs2">
+                        Category View
+                    </button>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="category-add-sections tabs" data-tab="tabs1" id="categoryfield">
+        <div class="category-add-inners">
+            <form method="post" action="">
+                <div class="form-data">
+
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Category Name
+                        </span>
+                        <input type="text" placeholder="Enter Cat Name" name="catName" required>
+                    </div>
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Category Type
+                        </span>
+                        <select name="selectCategory">
+                            <option value="gold">Gold</option>
+                            <option value="silver">Silver</option>
+                        </select>
+                    </div>
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Description Category
+                        </span>
+                        <textarea class="catdesc" name="catDesc" placeholder="Describe About Category" required></textarea>
+                    </div>
+                    <div class="each-rows-values">
+                        <span class="labels">
+                            Category Add Date
+                        </span>
+                        <input type="date" name="catDate" required>
+                    </div>
+                    <div class="each-rows-valuess">
+                        <button type="submit" class="cat-button views" name="addCategory">
+                            Category Add
+                        </button>
+                    </div>
+
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="category-views-sections hide tabs"  data-tab="tabs2"  id="subcategoryfield">
+        <div class="category-views-inners">
+            <form method="post">
+            <table>
+                <tr class="tb-headers">
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Delete</th>
+                </tr>
+             <?php
+                $sql = "SELECT * FROM category";
+                $result = $conn->query($sql);
+
+              if ($result->num_rows > 0) {
+                 while($row = $result->fetch_assoc()) 
+                 {
+                ?>
+                <tr>
+                    <td><?php echo $row["catName"]?></td>
+                    <td><?php echo $row["catType"]?></td>
+                    <td><?php echo $row["catdate"]?></td>
+                    <td><?php echo $row["catdesc"]?></td>
+                    <td>
+                        <button type="submit" name="deleteitem" class="deletedbtn" value=<?php echo $row["catId"] ?>>Delte Item</button>
+                    </td>
+                </tr>
+                <?php
+            }
+        }
+         else 
+        {
+            echo "Please add category";
+        }
+                        
+            ?>
+             </table>
+             </form>
+        </div>
+    </div>
+
 </body>
+<script>
+    $("button.categories").on('click',function(e){
+        jQuery('.tabs').addClass('hide');
+        jQuery(document).find("[data-tab='" + this.id + "']").removeClass("hide"); 
+    });
+</script>

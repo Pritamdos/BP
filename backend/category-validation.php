@@ -7,13 +7,12 @@
             $selectcategory = $_POST['selectCategory'];
             $categorydesc = $_POST['catDesc'];
             $categorydate = $_POST['catDate'];
-            // echo $categoryid."--".$categoryname."--".$selectcategory."--".$categorydesc."--".$categorydate;
             $cont= "insert into category(catName,catType,catdesc,catdate) values ('$categoryname', '$selectcategory', '$categorydesc', '$categorydate')";
             $result = mysqli_query($conn , $cont);
             if($result)
             {
-                $message = "Thanks for add";
-                echo "<script type='text/javascript'>alert('$message');</script>";
+                header('Location:admin-dashboard.php');
+               
             }
             else
             {
@@ -23,5 +22,15 @@
         
 
        }
-       
+       if(isset($_POST['deleteitem']))
+       {
+        $id=$_POST['deleteitem'];
+        $sql = "DELETE FROM category WHERE catId='$id'"; 
+        if(mysqli_query($conn, $sql)){ 
+            // echo "Record was deleted successfully."; 
+        }  
+        else{ 
+            // echo "ERROR: Could not able to execute"; 
+        } 
+       }
 ?>
