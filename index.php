@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <link rel="canonical" href="http://demo.designshopify.com/" />
     <meta name="description" content="" />
-    <title>Jewelry HTML Template</title>
+    <title>BP Jewellers</title>
 
     <link href="./../assets/stylesheets/font.css" rel='stylesheet' type='text/css'>
 
@@ -58,7 +58,7 @@
                             <a href="collection.html" style="color:#010101;">Live the moment</a>
                         </div>
                         <div class="camera_caption camera_caption_1 fadeIn" style="color: rgb(1, 1, 1);">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            Jewellery may be attached to the body or the clothes
                         </div>
                         <div class="camera_caption camera_image-caption_1 moveFromLeft">
                             <img src="assets/images/slide-image-caption-1.png" alt="image_caption">

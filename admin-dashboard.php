@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 <?php 
 	include_once "./backend/category-validation.php";
-=======
-<?php
-   include "./backend/category-validation.php"; 
- 
->>>>>>> 5cb4eecbff9ebc2ecac6156ff9fb69c90075cb96
 ?>
 <!doctype html>
 
@@ -15,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <link rel="canonical" href="http://demo.designshopify.com/" />
     <meta name="description" content="" />
-    <title>Jewelry HTML Template</title>
+    <title>BP Jewellers</title>
 
     <link href="./../assets/stylesheets/font.css" rel='stylesheet' type='text/css'>
 
