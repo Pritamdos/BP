@@ -59,6 +59,11 @@
                                             Home
                                         </a>
                                     </li>
+                                    <li class="nav-item active">
+                                        <a href="about-us.php"class="hvr-underline-from-center">
+                                            About
+                                        </a>
+                                    </li>
                                     <li class="dropdown mega-menu">
                                         <a href="collection.html" class="dropdown-toggle dropdown-link" data-toggle="dropdown" class="hvr-underline-from-center">
                                             <span>Collections</span>
